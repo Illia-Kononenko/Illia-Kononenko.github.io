@@ -1,1 +1,0 @@
-# indexability-bookmarklet.github.io
