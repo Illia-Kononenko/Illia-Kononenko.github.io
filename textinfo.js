@@ -1,6 +1,6 @@
 var XHR = ("onload" in new XMLHttpRequest()) ? XMLHttpRequest : XDomainRequest;
 var xhr = new XHR();
-xhr.open('GET', 'https://arsenkin.ru/bm/textinfo.php?url=' + encodeURIComponent(window.location), true);
+xhr.open('GET', 'https://kononenko-illia.infy.uk/textinfo.php?url=' + encodeURIComponent(window.location), true);
 xhr.onload = function() {
 	var resp = JSON.parse(this.responseText);
 	if(resp.error){
